@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">week5a1</string>
+    <string name="rmit_summer_dance_competition">RMIT Summer Dance Competition</string>
+    <string name="location">Location</string>
+    <string name="title">Title</string>
+    <string name="add_event_details">Add event details</string>
+    <string name="rmit_vietnam">RMIT Vietnam</string>
+    <string name="date">Date</string>
+    <string name="july_3">July 3</string>
+    <string name="time">Time</string>
+    <string name="_3_00_pm_6_00_pm">3:00 PM - 6:00 PM</string>
+    <string name="description">Description</string>
+    <string name="join_the_dancing_community_for_an_unforgettable_day_in_vietnam">Join the dancing community for an unforgettable day in Vietnam</string>
+    <string name="image_url">Image url</string>
+    <string name="https_www_rmit_edu_au_content_dam_rmit_rmit_images_buildings_vietnam_140210_rmit_vietnam_ab_2_0264_0267_1440x865_jpg">https://www.rmit.edu.au/content/dam/rmit/rmit-images/buildings/vietnam/140210-RMIT-Vietnam-AB-2-0264-0267-1440x865.jpg</string>
+</resources>

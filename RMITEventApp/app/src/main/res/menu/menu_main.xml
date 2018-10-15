@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.cardview.MainActivity" >
+    <item android:id="@+id/move_to_favourite"
+        android:title="Favourite events"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/add_new_event"
+        android:title="Add new event"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+</menu>

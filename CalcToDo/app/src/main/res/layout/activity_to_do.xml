@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s3713532.assignment1.ToDo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonT2M"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonT2C"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="#5058B1"
+            android:text="Main" />
+
+        <Button
+            android:id="@+id/buttonT2C"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonAddItem"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="#5058B1"
+            android:text="Calc" />
+
+        <ListView
+            android:id="@+id/listView"
+            style="@android:style/Widget.DeviceDefault.Light.ExpandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:longClickable="true">
+
+        </ListView>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/buttonAddItem"
+            android:layout_toLeftOf="@+id/buttonAddItem"
+            android:layout_toStartOf="@+id/buttonAddItem"
+            android:hint="Enter a new item" />
+
+        <Button
+            android:id="@+id/buttonAddItem"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:backgroundTint="#242A6C"
+            android:text="Add"
+            tools:layout_editor_absoluteX="296dp"
+            tools:layout_editor_absoluteY="463dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

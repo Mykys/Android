@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.s3713532.assignment1.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:background="@drawable/background">
+
+        <ImageButton
+            android:id="@+id/buttonTodo"
+            android:layout_width="162dp"
+            android:layout_height="194dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:background="@drawable/todoicon3"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="273dp"/>
+
+        <ImageButton
+            android:id="@+id/buttonCalc"
+            android:layout_width="162dp"
+            android:layout_height="205dp"
+            android:layout_alignStart="@+id/buttonTodo"
+            android:layout_below="@+id/buttonTodo"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/calcicon2"
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="33dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
